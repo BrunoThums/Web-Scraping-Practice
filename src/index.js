@@ -13,7 +13,7 @@ function extraiDados(link){
             const dadoshtml = resp.data;
             const $ = cheerio.load(dadoshtml);
             const titulo = $(".documentFirstHeading").text();
-            const linkImagem = $("img").attr("src") == undefined ? "" : $("img").attr("src");
+            const linkImagem = $("img").attr("src") ?? "";
             const dataPublicacao = $('span[class="value"]').text();
             const texto = $("div>p").text();
             const dados = {titulo, linkImagem, dataPublicacao, texto}
