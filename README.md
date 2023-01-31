@@ -1,4 +1,5 @@
 # Web-Scraping-Practice
+Este projeto tem como objetivo praticas os conhecimentos adquiridos sobre Web Scraping, utilizando bibliotecas Javascript.
 ## Execução:
 * No terminal, digite:
 * `npm init -y` para inicializar o node
