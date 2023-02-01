@@ -5,4 +5,4 @@ Este projeto tem como objetivo praticas os conhecimentos adquiridos sobre Web Sc
 * node.js: abra o cmd, e digite `nvm install 10.16.2` e `nvm on` para habilidade o node. Use `nvm list` para se certificar que está instalado.
 * Instale as dependências no terminal do VSCode: `npm init -y ; axios cheerio mysql2 mongoose jsonfile`.
 
-Execute o código usando: node src/index.js
+Execute o código usando: `node src/index.js`
