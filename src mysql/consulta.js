@@ -1,3 +1,4 @@
+//Este arquivo é um teste para consultar se há ou não uma notícia no banco de dados, utilizando um título de exemplo
 const mysql = require('mysql');
 const titulo = 'Roberto Pojo será titular da Secretaria de Gestão e Inovação';
 
