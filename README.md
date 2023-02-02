@@ -7,8 +7,8 @@ Este projeto introdutório tem como objetivo praticar os conhecimentos adquirido
 * **Configuração do banco MongoDB**: 
 * No site https://account.mongodb.com/account/login faça o seu login, crie um banco de dados chamado "blog" e resgate a url de acesso para substituí-la em `src mongodb/consulta.js` e `src mongodb/index.js`; lembrando de substituir no link o seu usuário e senha por `$usuario}` e `${senha}`.
 * Na raiz do projeto crie um arquivo `.env` onde você colocará seus dados de usuário do mongoDB
-** (linha 1) usuario = seuusuario
-** (linha 2) senha = suasenha
+* (linha 1) `usuario = seuusuario`
+* (linha 2) `senha = suasenha`
 * No MySQL Workbench, crie um banco de dados chamado "blog", e utilize o seguinte SQL:
  ```sql
 use blog;
