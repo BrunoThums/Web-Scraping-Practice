@@ -10,7 +10,7 @@ Este projeto introdutório tem como objetivo praticar os conhecimentos adquirido
 ** (linha 1) usuario = seuusuario
 ** (linha 2) senha = suasenha
 * No MySQL Workbench, crie um banco de dados chamado "blog", e utilize o seguinte SQL:
- ```language-pgsql hljs
+ ```sql
 use blog;
 
 #Criar a nossa tabela chamada noticias; 
