@@ -32,4 +32,6 @@ SELECT * FROM noticias;
 ALTER USER 'admin'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
 flush privileges;
 ```
-Execute o código usando: `node src/index.js`
+
+### Execução
+*Execute o código usando: `node src/index.js`
