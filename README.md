@@ -5,14 +5,12 @@ Este projeto introdutório tem como objetivo pôr em prática os conhecimentos a
 * **Nvm**: https://github.com/coreybutler/nvm-windows/releases, faça o download e execute o `nvm-setup.zip`.
 * **Node.js**: abra o cmd, e digite `nvm install 10.16.2` e `nvm on` para habilidade o node. Use `nvm list` para se certificar que está instalado.
 * **Dependências**: Instale-as no terminal do VSCode: `npm init -y ; axios cheerio mysql2 mongoose jsonfile dotenv`.
-
-### Configuração do banco MongoDB: 
+## Configuração do banco MongoDB: 
 * No site https://account.mongodb.com/account/login faça o seu login, crie um banco de dados chamado "blog" e resgate a url de acesso para substituí-la em `src mongodb/consulta.js` e `src mongodb/index.js`; lembrando de substituir no link o seu usuário e senha por `$usuario}` e `${senha}`.
 * Na raiz do projeto crie um arquivo `.env` onde você colocará seus dados de usuário do mongoDB
 * (linha 1) `NODE_USER = seuusuario`
 * (linha 2) `NODE_PASS = suasenha`
-
-### Configuração do MySQL
+## Configuração do MySQL
 * No MySQL Workbench, crie um banco de dados chamado "blog", e utilize o seguinte SQL:
  ```sql
 use blog;
@@ -34,6 +32,5 @@ SELECT * FROM noticias;
 ALTER USER 'admin'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
 flush privileges;
 ```
-
-### Execução
+## Execução
 *Execute o código usando: `node src/index.js`
